@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import logo from "/assets/openai-logomark.svg";
 import EventLog from "./EventLog";
 import SessionControls from "./SessionControls";
+import Footer from "./Footer";
 import ToolPanel from "./ToolPanel";
 
 export default function App() {
@@ -146,6 +147,7 @@ export default function App() {
               isSessionActive={isSessionActive}
             />
           </section>
+          <Footer/>
       </main>
     </>
   );
